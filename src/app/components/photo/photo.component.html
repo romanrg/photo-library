@@ -1,0 +1,5 @@
+<div class="wrapper">
+  <img [src]="(photo$ | async)?.url">
+  <button mat-button color="primary" (click)="remove()">Remove from Favorites</button>
+</div>
+

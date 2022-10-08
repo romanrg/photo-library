@@ -1,0 +1,21 @@
+.navigation {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background: aliceblue;
+
+  &-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    flex-grow: 1;
+    justify-content: space-evenly;
+  };
+}
+
+.active-link {
+  box-shadow: 0 1px;
+}
